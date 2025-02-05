@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>稼働時間の記録</title>
+  <style>
+    body { font-family: Arial; text-align: center; padding: 20px; }
+    h1 { color: #0079BF; }
+    button {
+      padding: 10px 20px;
+      margin: 10px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+    .start { background-color: #0079BF; color: white; }
+    .cancel { background-color: #EBECF0; color: #172B4D; }
+  </style>
+</head>
+<body>
+  <h1>稼働時間を記録しますか？</h1>
+  <button class="start" onclick="startTimer()">はい</button>
+  <button class="cancel" onclick="window.TrelloPowerUp.getRestApi().closeModal();">いいえ</button>
+
+  <script src="powerup.js"></script>
+</body>
+</html>
