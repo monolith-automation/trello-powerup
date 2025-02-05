@@ -1,0 +1,15 @@
+{
+    "name": "Trello Time Tracker",
+    "description": "カードの稼働時間を記録するPower-Up",
+    "author": "Yota Tanaka",
+    "version": "1.0",
+    "permissions": ["read", "write"],
+    "capabilities": {
+      "card-buttons": {
+        "url": "./index.html",
+        "icon": "https://cdn-icons-png.flaticon.com/512/992/992700.png",
+        "text": "時間を記録"
+      }
+    }
+  }
+  
