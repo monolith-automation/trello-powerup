@@ -6,7 +6,7 @@
   "permissions": ["read"],
   "homepage": "https://monolith-automation.github.io/trello-powerup/",
   "icon": "https://cdn-icons-png.flaticon.com/512/992/992700.png",
-  "capabilities": ["card-buttons"],
+  "capabilities": ["card-buttons", "attachment-sections"],
   "card-buttons": [
     {
       "text": "時間を記録",
