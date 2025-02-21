@@ -11,10 +11,10 @@ window.TrelloPowerUp.initialize({
           });
         }
       }];
-    },
-});
+    }
+  });
   
-function startTimer() {
-  console.log("✅ 記録開始！");
-  window.TrelloPowerUp.getRestApi().closeModal();
-}
+  function startTimer() {
+    console.log("✅ 記録開始！");
+    window.TrelloPowerUp.getRestApi().closeModal();
+  }
