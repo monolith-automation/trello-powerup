@@ -12,11 +12,6 @@ window.TrelloPowerUp.initialize({
         }
       }];
     },
-    // attachment-sectionsの最小限の実装を追加
-    'attachment-sections': function(t, options) {
-      // 空の配列を返すだけでOK
-      return [];
-    }
 });
   
 function startTimer() {
