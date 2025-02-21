@@ -2,7 +2,7 @@
   "name": "Trello Time Tracker",
   "description": "カードの稼働時間を記録するPower-Up",
   "author": "Yota Tanaka",
-  "version": "1.0",
+  "version": "1.1",
   "permissions": ["read"],
   "homepage": "https://monolith-automation.github.io/trello-powerup/",
   "icon": "https://cdn-icons-png.flaticon.com/512/992/992700.png",
